@@ -1,0 +1,8 @@
+pre-commit==4.0.1
+black==25.1.0
+ipykernel==6.29.5
+plotly==5.24.1
+nbformat>=4.2.0
+pymc==5.21.1
+pymc-marketing==0.11.1 
+arviz==0.21.0

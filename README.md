@@ -40,27 +40,31 @@ The planning pipeline creates, configures, and stores GEO experiment candidates 
 ## Set Up
 Open project on your Mac
 1. CD to working directory:
-```
-<path>/geo-lift
+```bash
+cd /Users/itamar.zach/Desktop/ita/GitHub repo/MMM
 ```
 
 2. Clone the repository(Github) & open on VS code/pycharm:
   ```
   git clone git@github.com:Playstudios-Data/geo-lift.git
   ```
-3. Set up a virtual environment and activate it:
+3. Check the current path:
   ```
-  source venv/bin/activate
-  python3 -m venv venv
+  pwd
+  ```  
+4. Set up a virtual environment, activate it and verify that the venv is on env was created:
   ```
-4. install the dependencies:
+  python3 -m venv .venv
+  source .venv/bin/activate
+  ls -a
+  which python
   ```
-  pip install -r requirements-dev.txt
+5. install the dependencies:
   ```
- 
-5. setup pre-commit hook:
+  pip install -r requirements.txt
+  ```
+6. setup pre-commit hook:
   ```
   pre-commit install
- ```
-
+ ```  
 ---
